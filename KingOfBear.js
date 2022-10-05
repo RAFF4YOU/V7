@@ -571,7 +571,7 @@ Ketik *nyerah* untuk menyerah dan mengakui kekalahan`
             }
             break
         case 'donasi': case 'sewabot': case 'sewa': case 'buypremium': case 'donate': {
-                KingOfBear.sendMessage(m.chat, { image: { url: 'https://i.ibb.co/rkTg7B0/donasi.jpg' }, caption: `*${ucapanWaktu} Kak ${m.pushName}*\n\n *Jika ingin berdonasi silahkan scan gambar diatas*\n\n*Atau klik link dibawah ini*\n_https://sociabuzz/raff4you/tribe_\n\n*Atau Transfer via*\n- *Gopay Dana*\n Ke nomer berikut : 083823397743\n\n_Terima kasih bagi yang sudah donasi_` }, { quoted: m })
+                KingOfBear.sendMessage(m.chat, { image: { url: 'https://i.ibb.co/gVs6Xjv/donasi.jpg' }, caption: `*${ucapanWaktu} Kak ${m.pushName}*\n\n *Jika ingin berdonasi silahkan scan gambar diatas*\n\n*Atau klik link dibawah ini*\n_https://sociabuzz.com/raff4you/tribe_\n\n*Atau Transfer via*\n- *Gopay Dana*\n Ke nomer berikut : 083823397743\n\n_Terima kasih bagi yang sudah donasi_` }, { quoted: m })
           await KingOfBear.sendMessage(m.chat, { audio: { url: `https://github.com/saipulanuar/Api-Github/raw/main/audio/Donasiku.mp3` }, mimetype: 'audio/mpeg', ptt:true }, { quoted: m })
             }
             break
